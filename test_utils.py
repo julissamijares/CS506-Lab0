@@ -19,7 +19,7 @@ def test_cosine_similarity():
     
     result = cosine_similarity(vector1, vector2)
     
-    expected_result = 0.9746
+    expected_result = 0.974631846197076
     
     assert np.isclose(result, expected_result), f"Expected {expected_result}, but got {result}"
 
